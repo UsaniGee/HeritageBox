@@ -1,20 +1,20 @@
 import React from 'react'
-import Benarc from '../../assets/images/Benarc.png'
-import Cihp from '../../assets/images/Cihp.png'
-import Agl from '../../assets/images/Agl.png'
-import Homme from '../../assets/images/Homme.png'
-import Bam from '../../assets/images/Bam.png'
-import Urban from '../../assets/images/Urban.png'
-import Atm from '../../assets/images/Atm.png'
-import Metro from '../../assets/images/Metro.png'
-import Army from '../../assets/images/Army.png'
-import East from '../../assets/images/east.png'
+import Benarc from '/assets/Benarc.png'
+import Cihp from '/assets/Cihp.png'
+import Agl from '/assets/Agl.png'
+import Homme from '/assets/Homme.png'
+import Bam from '/assets/Bam.png'
+import Urban from '/assets/Urban.png'
+import Atm from '/assets/Atm.png'
+import Metro from '/assets/Metro.png'
+import Army from '/assets/Army.png'
+import East from '/assets/east.png'
 import Button from '../Button'
 
 const RecentCients = () => {
   return (
     <div>
-      <div className='w-[792px] h-[140px] mt-[59px] ml-[159px] font-bold text-6xl text-[#424530]'>
+      <div className='w-[792px] h-[140px] mt-[59px] ml-[159px] font-bold text-5xl text-[#424530]'>
        Driving Sustainable Growth For Exceptional Businesses
       </div>
 
@@ -36,7 +36,7 @@ const RecentCients = () => {
 
       {/* Button */}
       <div className='flex justify-center pb-[100px]'>
-        <Button content={'Know More'} BtnStyle={'w-[355px] h-[100px] mt-[200px] bg-[#424531] text-[#FFF0CE] gap-10 font-medium text-3xl '} image={East}/>
+        <Button content={'Know More'} BtnStyle={'w-[280px] h-[70px] mt-[200px] bg-[#424532] text-[#FFF0CE] gap-10 font-medium text-xl '} image={East}/>
       </div>
     </div>
   )

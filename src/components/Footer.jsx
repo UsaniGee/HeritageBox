@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from '../assets/images/Logo-Primary.png'
+import Logo from '../../public/assets/Logo-Primary.png'
 const Footer = () => {
   return (
     <div className='bg-[#FFF0CE] pt-[57px]'>
@@ -10,7 +10,7 @@ const Footer = () => {
         <div>
           <img src={Logo} alt="" />
         </div>
-        <div className='w-[446px] h-[72px] font-medium text-2xl'>
+        <div className='w-[446px] h-[72px] font-medium text-xl'>
           “Those who solve tomorrow’s problems today will always be ahead.”
         </div>
       </div>
